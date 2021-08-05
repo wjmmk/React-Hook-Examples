@@ -7,7 +7,11 @@ import MultipleCustomHook from './Components/03-Examples/MultipleCustomHook'
 import ExampleRef from './Components/04-useRef/ExampleRef'
 import FocusScreen from './Components/04-useRef/FocusScreen'
 import LayoutEffect from './Components/05-useLayoutEffect/LayoutEffect'
+import CallbackHook from './Components/06-Memos/CallbackHook'
+import MemoHook from './Components/06-Memos/MemoHook'
 import Memmorize from './Components/06-Memos/Memorize'
+import { Padre } from './Components/07-tarea-memo/Padre'
+import TodoApp from './Components/08-useReducer/TodoApp'
 
 const HookApp = () => {
     return (
@@ -22,8 +26,13 @@ const HookApp = () => {
             <ExampleRef />
             <LayoutEffect />
             <Memmorize />
+            <MemoHook />
+            <CallbackHook />
+            <Padre />
+            <TodoApp />
         </div>
     )
 }
 
 export default HookApp
+

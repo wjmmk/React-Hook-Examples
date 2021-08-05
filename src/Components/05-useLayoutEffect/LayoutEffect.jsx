@@ -1,6 +1,6 @@
 import React, {useLayoutEffect, useRef} from 'react'
-import { useCounter } from '../../hooks/useCounter'
-import useFetch from '../../hooks/useFetch'
+import { useCounter } from '../../Hooks/useCounter'
+import useFetch from '../../Hooks/useFetch'
 import './effect.css'
 
 const LayoutEffect = () => {
