@@ -1,5 +1,6 @@
 import React from 'react'
-import CounterApp from './Components/01-useState/counter-app'
+import MainApp from './Components/09-useContext/MainApp'
+/* import CounterApp from './Components/01-useState/counter-app'
 import CounterWithCustomHook from './Components/01-useState/CounterWithCustomHook'
 import FormWithCustomHook from './Components/02-useEffect/FormWithCustomHook'
 import { SimpleForm } from './Components/02-useEffect/SimpleForm'
@@ -12,11 +13,13 @@ import MemoHook from './Components/06-Memos/MemoHook'
 import Memmorize from './Components/06-Memos/Memorize'
 import { Padre } from './Components/07-tarea-memo/Padre'
 import TodoApp from './Components/08-useReducer/TodoApp'
+ */
+
 
 const HookApp = () => {
     return (
         <div>
-            <h2 className="text-warning bg-dark">!!! PROBANDO CON LOS HOOK !!!</h2>
+           {/* <h2 className="text-warning bg-dark">!!! PROBANDO CON LOS HOOK !!!</h2>
             <CounterApp />
             <CounterWithCustomHook />
             <SimpleForm />
@@ -29,7 +32,8 @@ const HookApp = () => {
             <MemoHook />
             <CallbackHook />
             <Padre />
-            <TodoApp />
+            <TodoApp /> */}
+            <MainApp />
         </div>
     )
 }
